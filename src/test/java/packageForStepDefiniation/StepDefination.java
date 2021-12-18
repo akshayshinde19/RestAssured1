@@ -96,7 +96,7 @@ public class StepDefination extends Utils {
 
 		response = reqspec.when().get(arObj.getResource());
 
-		String responseString = response.asString();
+		//String responseString = response.asString();
 		// System.out.println("Get API response == "+responseString);
 
 		in_response_body_is("name", Expectedname);
